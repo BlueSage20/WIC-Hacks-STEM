@@ -1,0 +1,37 @@
+.menu{
+	background-color: pink;
+        font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 20px;
+	padding: 5px;
+	margin: 5px;
+	text-align: right;
+	box-shadow: 8px 8px 3px #888888;
+}
+
+/*menu link */
+.menu a{
+	font-family:"Gill Sans MT";
+	text-decoration: none;
+	color: #000001;
+}
+
+.menu a:hover{
+	color: #2e8b57;
+	/*font-weight: bold;*/
+}
+
+/*menu list*/
+.menu li{
+	display: inline;
+	margin: 0 0 1px 0;
+}
+
+.menu li:after{
+	content: " | ";
+	color: #DC143C;
+	font-weight: bold;
+}
+
+.menu li:last-child:after{
+	content:" ";
+}
